@@ -761,7 +761,7 @@ chalk@2.3.0:
     escape-string-regexp "^1.0.5"
     supports-color "^4.0.0"
 
-chalk@^2.0.0, chalk@^2.1.0, chalk@^2.3.0, chalk@^2.3.2:
+chalk@2.3.2, chalk@^2.0.0, chalk@^2.1.0, chalk@^2.3.0, chalk@^2.3.2:
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.3.2.tgz#250dc96b07491bfd601e648d66ddf5f60c7a5c65"
   dependencies:
@@ -959,6 +959,10 @@ commander@2.9.0:
 commander@^2.13.0, commander@^2.9.0, commander@~2.15.0:
   version "2.15.1"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.15.1.tgz#df46e867d0fc2aec66a34662b406a9ccafff5b0f"
+
+commander@^2.16.0:
+  version "2.19.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-2.19.0.tgz#f6198aa84e5b83c46054b94ddedbfed5ee9ff12a"
 
 component-emitter@^1.2.0, component-emitter@^1.2.1:
   version "1.2.1"
@@ -3339,7 +3343,28 @@ knex-migrator@3.1.5:
     mysql "^2.11.1"
     sqlite3 "^4.0.0"
 
-knex@0.14.4, knex@^0.14.2:
+knex@0.15.2:
+  version "0.15.2"
+  resolved "https://registry.yarnpkg.com/knex/-/knex-0.15.2.tgz#6059b87489605f4cc87599a6d2a9d265709e9340"
+  dependencies:
+    babel-runtime "^6.26.0"
+    bluebird "^3.5.1"
+    chalk "2.3.2"
+    commander "^2.16.0"
+    debug "3.1.0"
+    inherits "~2.0.3"
+    interpret "^1.1.0"
+    liftoff "2.5.0"
+    lodash "^4.17.10"
+    minimist "1.2.0"
+    mkdirp "^0.5.1"
+    pg-connection-string "2.0.0"
+    tarn "^1.1.4"
+    tildify "1.2.0"
+    uuid "^3.3.2"
+    v8flags "^3.1.1"
+
+knex@^0.14.2:
   version "0.14.4"
   resolved "https://registry.yarnpkg.com/knex/-/knex-0.14.4.tgz#d974b7e0355244260c703731c8d90f662bfe798a"
   dependencies:
@@ -3564,6 +3589,10 @@ lodash@4.17.5, lodash@^4.13.1, lodash@^4.14.0, lodash@^4.14.2, lodash@^4.16.3, l
 lodash@^3.10.1:
   version "3.10.1"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
+
+lodash@^4.17.10:
+  version "4.17.11"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
 
 lodash@~0.9.2:
   version "0.9.2"
@@ -5775,7 +5804,7 @@ tar@^4:
     safe-buffer "^5.1.1"
     yallist "^3.0.2"
 
-tarn@^1.1.2:
+tarn@^1.1.2, tarn@^1.1.4:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/tarn/-/tarn-1.1.4.tgz#aeeb85964b1afa0bbf381359c1167df237c27b6a"
 
@@ -6063,9 +6092,19 @@ uuid@3.2.1, uuid@^3.0.0, uuid@^3.1.0, uuid@^3.2.1:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.2.1.tgz#12c528bb9d58d0b9265d9a2f6f0fe8be17ff1f14"
 
+uuid@^3.3.2:
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
+
 v8flags@^3.0.1:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/v8flags/-/v8flags-3.0.2.tgz#ad6a78a20a6b23d03a8debc11211e3cc23149477"
+  dependencies:
+    homedir-polyfill "^1.0.1"
+
+v8flags@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/v8flags/-/v8flags-3.1.1.tgz#42259a1461c08397e37fe1d4f1cfb59cad85a053"
   dependencies:
     homedir-polyfill "^1.0.1"
 
